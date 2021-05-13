@@ -1,6 +1,64 @@
-.col-4 .bg-dark .img_cv {
-  padding: 5px 20px;
-  width: 250px;
-  height: 250px;
-  border-radius: 5rem;
+body {
+  font-size: 20px;
+  color: #263238;
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.sidebar {
+  width: 50%;
+  background: #37474f;
+  color: #fff;
+}
+
+.content {
+  width: 65%;
+  padding: 70px;
+}
+
+.avatar {
+  padding: 60px 0;
+  background: #263238;
+}
+.avatar img {
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.1);
+}
+.avatar .name {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 25px 0 0;
+}
+.avatar .job {
+  font-size: 22px;
+}
+
+.sidebar .module {
+  padding: 0 45px;
+  margin-top: 50px;
+}
+
+.module_title {
+  font-size: 22px;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.module_content{
+  margin-bottom: 25px;
+}
+.section_title {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.section_content {
+  padding-left: 90px;
+  margin-bottom: 50px;
 }
